@@ -97,7 +97,7 @@ No spaces — use hyphens `-` instead.
 | Forgot which branch you're on | `git branch` (the one with `*` is current) |
 | Accidentally worked on main | Contact Daisuke |
 | Want to delete a branch | Contact Daisuke |
-| Need to make changes after submitting a PR | Run `add → commit → push` on the same branch — the PR updates automatically |
+| Need to edit after submitting a PR | `add` → `commit` → `push` on the same branch — PR updates automatically |
 
 ---
 

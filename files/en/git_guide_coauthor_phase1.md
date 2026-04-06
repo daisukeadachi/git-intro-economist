@@ -69,7 +69,13 @@ Their version
 
 **How to resolve:**
 1. Manually edit the section between `<<<<<<<` and `>>>>>>>` to keep the correct content
-2. Then run: `git add .` → `git commit -m "Resolved conflict"` → `git push`
+2. Then run these in order:
+
+   ```
+   git add .
+   git commit -m "Resolved conflict"
+   git push
+   ```
 
 **If you're unsure, contact Daisuke before doing anything.**
 
@@ -82,7 +88,7 @@ Their version
 | Forgot to `git pull` before working | Run `git pull` and then commit. Resolve any conflicts as above. |
 | Forgot to `git push` and noticed the next day | Just run `git push` — it's fine |
 | Something seems broken | **Don't touch anything.** Contact Daisuke. |
-| Not sure whether to write the commit message in English or Japanese | Either is fine. Just write something. |
+| Unsure about commit message language | Either is fine. Just write something. |
 
 ---
 
