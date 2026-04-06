@@ -95,7 +95,6 @@ Their version
 
 ## 6. Things never to do
 
-- **Do not** `git add` data files (`.dta`, `.csv`, `.xlsx`) — they are excluded via `.gitignore`
 - **Do not** commit passwords or credentials
 - **Do not** delete the repository on your own if a conflict occurs
 
