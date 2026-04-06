@@ -68,6 +68,7 @@ Their version
 ```
 
 **How to resolve:**
+
 1. Manually edit the section between `<<<<<<<` and `>>>>>>>` to keep the correct content
 2. Then run these in order:
 
