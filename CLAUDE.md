@@ -36,3 +36,9 @@ PDFs are generated with pandoc + xelatex:
 A PostToolUse hook in `.claude/settings.local.json` runs `.claude/md_to_pdf.sh` automatically after any Edit/Write on files in `files/ja/` or `files/en/`. The same hook reminds to update the counterpart language file.
 
 **Do not use emoji or special Unicode characters in the markdown files** — they cause missing-character warnings in xelatex and may render incorrectly in the PDF.
+
+**Write markdown with PDF rendering in mind:**
+
+- Avoid long inline lines containing `→` or similar non-breaking characters — xelatex cannot insert a line break at these points. Use a code block or sub-list instead.
+- Keep table cells short. Long cell text does not wrap reliably in xelatex tables.
+- Prefer code blocks (` ``` `) for multi-step command sequences rather than chaining them inline with arrows.
