@@ -42,3 +42,4 @@ A PostToolUse hook in `.claude/settings.local.json` runs `.claude/md_to_pdf.sh` 
 - Avoid long inline lines containing `→` or similar non-breaking characters — xelatex cannot insert a line break at these points. Use a code block or sub-list instead.
 - Keep table cells short. Long cell text does not wrap reliably in xelatex tables.
 - Prefer code blocks (` ``` `) for multi-step command sequences rather than chaining them inline with arrows.
+- Always put a blank line between a bold label (e.g. `**対処法：**`) and a following list — without it, pandoc treats the list as a continuation of the paragraph and collapses items onto one line.
